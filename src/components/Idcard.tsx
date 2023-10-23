@@ -156,7 +156,7 @@ const Idcard = ({ formData, selectedFile }: Props) => {
               strokeWidth: ".533297px",
             }}
           >
-            {formData ? formData.dob : null}
+            {formData && formData.dob}
           </tspan>
         </text>
         <text
@@ -258,7 +258,7 @@ const Idcard = ({ formData, selectedFile }: Props) => {
               strokeWidth: ".533297px",
             }}
           >
-            {formData ? formData.name : null}
+            {formData && formData.name}
           </tspan>
         </text>
         <text
