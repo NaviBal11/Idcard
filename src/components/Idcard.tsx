@@ -113,6 +113,108 @@ const Idcard = ({ formData, selectedFile }: Props) => {
         </text>
         <text
           xmlSpace="preserve"
+          x={18.119}
+          y={167.239}
+          style={{
+            fontStyle: "normal",
+            fontVariant: "normal",
+            fontWeight: 400,
+            fontStretch: "normal",
+            fontSize: "5.86628px",
+            lineHeight: "125%",
+            fontFamily: "Sans",
+
+            textAlign: "start",
+            letterSpacing: 0,
+            wordSpacing: 0,
+
+            textAnchor: "start",
+            fill: "#000",
+            fillOpacity: 1,
+            stroke: "none",
+            strokeWidth: ".533297px",
+            strokeLinecap: "butt",
+            strokeLinejoin: "miter",
+            strokeOpacity: 1,
+          }}
+        >
+          <tspan
+            x={18.119}
+            y={167.239}
+            style={{
+              fontStyle: "normal",
+              fontVariant: "normal",
+              fontWeight: 700,
+              fontStretch: "normal",
+              fontSize: "5.86628px",
+              fontFamily: "Arial",
+
+              fontVariantLigatures: "normal",
+              fontVariantCaps: "normal",
+              fontVariantNumeric: "normal",
+              fontVariantEastAsian: "normal",
+              strokeWidth: ".533297px",
+            }}
+          >
+            {formData ? formData.dob : null}
+          </tspan>
+        </text>
+        <text
+          xmlSpace="preserve"
+          x={4.386}
+          y={166.208}
+          style={{
+            fontStyle: "normal",
+            fontVariant: "normal",
+            fontWeight: 700,
+            fontStretch: "normal",
+            fontSize: "2.91042px",
+            lineHeight: "125%",
+            fontFamily: "Arial",
+
+            fontVariantLigatures: "normal",
+            fontVariantCaps: "normal",
+            fontVariantNumeric: "normal",
+            fontVariantEastAsian: "normal",
+            textAlign: "start",
+            letterSpacing: 0,
+            wordSpacing: 0,
+
+            textAnchor: "start",
+            fill: "#545454",
+            fillOpacity: 1,
+            stroke: "none",
+            strokeWidth: ".264583px",
+            strokeLinecap: "butt",
+            strokeLinejoin: "miter",
+            strokeOpacity: 1,
+          }}
+        >
+          <tspan
+            x={4.386}
+            y={166.208}
+            style={{
+              fontStyle: "normal",
+              fontVariant: "normal",
+              fontWeight: 700,
+              fontStretch: "normal",
+              fontSize: "2.91042px",
+              fontFamily: "Arial",
+
+              fontVariantLigatures: "normal",
+              fontVariantCaps: "normal",
+              fontVariantNumeric: "normal",
+              fontVariantEastAsian: "normal",
+              strokeWidth: ".264583px",
+              fill: "#545454",
+              fillOpacity: 1,
+            }}
+          >
+            {"D.O.B"}
+          </tspan>
+        </text>
+        <text
+          xmlSpace="preserve"
           x={10.477}
           y={174.423}
           style={{
@@ -139,7 +241,7 @@ const Idcard = ({ formData, selectedFile }: Props) => {
           }}
         >
           <tspan
-            x={10.477}
+            x={17.477}
             y={174.423}
             style={{
               fontStyle: "normal",
@@ -157,6 +259,60 @@ const Idcard = ({ formData, selectedFile }: Props) => {
             }}
           >
             {formData ? formData.name : null}
+          </tspan>
+        </text>
+        <text
+          xmlSpace="preserve"
+          x={4.386}
+          y={166.208}
+          style={{
+            fontStyle: "normal",
+            fontVariant: "normal",
+            fontWeight: 700,
+            fontStretch: "normal",
+            fontSize: "2.91042px",
+            lineHeight: "125%",
+            fontFamily: "Arial",
+
+            fontVariantLigatures: "normal",
+            fontVariantCaps: "normal",
+            fontVariantNumeric: "normal",
+            fontVariantEastAsian: "normal",
+            textAlign: "start",
+            letterSpacing: 0,
+            wordSpacing: 0,
+
+            textAnchor: "start",
+            fill: "#545454",
+            fillOpacity: 1,
+            stroke: "none",
+            strokeWidth: ".264583px",
+            strokeLinecap: "butt",
+            strokeLinejoin: "miter",
+            strokeOpacity: 1,
+          }}
+        >
+          <tspan
+            x={4.386}
+            y={174.208}
+            style={{
+              fontStyle: "normal",
+              fontVariant: "normal",
+              fontWeight: 700,
+              fontStretch: "normal",
+              fontSize: "2.91042px",
+              fontFamily: "Arial",
+
+              fontVariantLigatures: "normal",
+              fontVariantCaps: "normal",
+              fontVariantNumeric: "normal",
+              fontVariantEastAsian: "normal",
+              strokeWidth: ".264583px",
+              fill: "#545454",
+              fillOpacity: 1,
+            }}
+          >
+            {"Name"}
           </tspan>
         </text>
       </g>
